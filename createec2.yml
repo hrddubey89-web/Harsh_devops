@@ -11,8 +11,8 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0
           IpProtocol: tcp
-          FromPort: 8080
-          ToPort: 8080
+          FromPort: 3389
+          ToPort: 3389
           CidrIp: 0.0.0.0/0
           
   MyEC2Instance:
