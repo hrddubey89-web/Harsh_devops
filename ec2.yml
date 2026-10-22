@@ -5,4 +5,6 @@
 -deploy: done
 task
 -name vm1
--service: start
+-service:
+-service:stop
+
