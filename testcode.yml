@@ -1,0 +1,6 @@
+---
+-name: Ec2 creating
+-Host: Aws
+-Task:
+  -name: VM1
+  -OS: Linux
