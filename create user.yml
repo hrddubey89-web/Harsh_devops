@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'new IAM User'
+
+Resources:
+  MyIAMUser:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: 'Nikhil'
+      
+      # Option 1: Embedding Inline Policies directly under the user
+      Policies:
+        - PolicyName: 's3 new Policies'
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: 'Allow'
+                Action:
+                  - 's3:GetObject'
+                  - 's3:List*'
+                  -'s3:ListAllMyBuckets'
+                Resource: '*'
+      
