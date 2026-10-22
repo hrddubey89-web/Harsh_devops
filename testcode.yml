@@ -4,3 +4,5 @@
 -Task:
   -name: VM1
   -OS: Linux
+  -key: test
+  -services: Prod On
