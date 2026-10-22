@@ -7,4 +7,7 @@ task
 -name vm1
 -service:
 -service:stop
-
+task
+-service: installation Java
+-status: start
+-status: deploy
