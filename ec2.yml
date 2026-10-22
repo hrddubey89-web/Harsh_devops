@@ -1,0 +1,8 @@
+---
+-name: ec2
+-os: ubuntu
+-system: micro
+-deploy: done
+task
+-name vm1
+-service: start
