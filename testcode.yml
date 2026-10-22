@@ -3,6 +3,6 @@
 -Host: Aws
 -Task:
   -name: VM1
-  -OS: Linux
-  -key: test
+  -OS: win
+  -key: 
   -services: Prod On
